@@ -67,8 +67,9 @@ response = session.get(url)
 ## Contact
 feel free to contact for any issue while using the temeva_rest_client
 
-poornima.wari@spirent.com
-temeva-support@spirent.com
+	poornima.wari@spirent.com
+
+	temeva-support@spirent.com
 
 ## License
 [MIT]
