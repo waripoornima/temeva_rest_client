@@ -7,7 +7,7 @@ from py_temeva_rest_client.SpirentTemeva import SpirentTemeva
 
 # user credentials
 user = 'poornima.wari@spirent.com'
-password = 'Spirent2021'
+password = 'Spirent123'
 
 # creating temeva object
 temeva_object = SpirentTemeva(user, password)
