@@ -4,17 +4,8 @@ SpirentTemeva is python ReST client for Spirent Temeva Service ReST API Supports
 
 This ReST client supports python2.7+ and python3+
 
-## Installation and updating
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install SpirentTemeva like below. 
-Rerun this command to check for and install updates.
+https://github.com/waripoornima/temeva_rest_client
 
-'''
-bash
-
-pip install py_temeva_rest_client # python2
-python3 -m pip install py_temeva_rest_client # python3
-
-'''
 
 ## Usage
 Features:

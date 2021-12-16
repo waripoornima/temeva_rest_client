@@ -27,6 +27,6 @@ organization_id = organization_list[0]['id']
 print('Organization Id: {}'.format(organization_id))
 
 # get the application id for Spirent TestCenter
-end_point ='/inv/applicatons'
+end_points ='/inv/applications'
 applications_list = temeva_object.get(end_points)
 print('Applications : {}'.format(applications_list))
