@@ -23,25 +23,31 @@ Command Syntax/Example :
    temeva_object = SpirentTemeva(username, Password, organization_id)
 
 * Get the Build version
-end_point = '/lic/version'
-temeva_object.get(end_point)
+
+			end_point = '/lic/version'
+			temeva_object.get(end_point)
+
 
 * List Users
+			
 			end_point = '/iam/users'
 			temeva_object.get(end_point)
 
-* Get application Id
-			end_point = '/inv/applications'
-temeva_object.get(end_point)
 
+* Get application Id
+
+			end_point = '/inv/applications'
+			temeva_object.get(end_point)
+	
+	
 * License Checkout
-end_point = '/lic/checkouts'
-user_params = {
-'orgnization_id' = 'org id provided by spirent'
-'application_id' = 'your application id ex: stc'
-}
+
+			end_point = '/lic/checkouts'
+			user_params = {
+			'orgnization_id' = 'org id provided by spirent'
+			'application_id' = 'your application id ex: stc'
+			}
 			temeva_object.get(end_point,params=user_params)
-              
 		
 
                 
