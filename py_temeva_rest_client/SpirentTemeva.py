@@ -352,7 +352,7 @@ class SpirentTemeva:
 def main():
     # user credentials
     user = 'poornima.wari@spirent.com'
-    password = 'Spirent2021'
+    password = 'Spirent123'
 
     # license server version end point
     end_points = '/lic/version'
